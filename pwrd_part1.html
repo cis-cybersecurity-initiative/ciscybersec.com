@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Post</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Demo project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css">
+<link rel="stylesheet" type="text/css" href="styles/post_nosidebar.css">
+<link rel="stylesheet" type="text/css" href="styles/post_nosidebar_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header_content d-flex flex-row align-items-center justify-content-start">
+						<div class="logo"><a href="index.html">CIS Cyber Security Initiative</a></div>
+						<nav class="main_nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#">Articles</a></li>
+								<li class="active"><a href="pwrd.html">Pwrd</a></li>
+								<li><a href="mailto:mattis.s@cisstudent.no?Subject=CIS%20Cyber%20Security%20Initiative">Contact</a></li>
+							</ul>
+						</nav>
+						<div class="hamburger ml-auto menu_mm">
+							<i class="fa fa-bars trans_200 menu_mm" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<div class="logo menu_mm"><a href="#">CIS Cyber Security Initiative</a></div>
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li class="menu_mm"><a href="index.html">home</a></li>
+				<li class="menu_mm"><a href="index.html#articles">Articles</a></li>
+				<li class="menu_mm"><a href="pwrd.html">Password Reset Day</a></li>
+				<li class="menu_mm"><a href="mailto:mattis.s@cisstudent.no?Subject=CIS%20Cyber%20Security%20Initiative">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="http://78.media.tumblr.com/aac838b8d09c49095f35daa29737d08a/tumblr_p287pcXRYL1qbw2q1o1_1280.gif" data-speed="0.8"></div>
+		<div class="home_content">
+			<div class="post_category trans_200"><a class="trans_200">Pwrd</a></div>
+			<div class="post_title">Pwrd Part 1: Robust Passphrase Design</div>
+			<div class="post_author d-flex flex-row align-items-center justify-content-center">
+				<div class="author_image"><div><img src="images/author.png" alt=""></div></div>
+				<div class="post_meta"><a href="#">Mattis Stene-Johansen</a><span>Jan 21, 2019 at 10:51 am</span></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Page Content -->
+
+	<div class="page_content">
+		<div class="container">
+			<div class="row">
+
+				<!-- Post Content -->
+
+				<div class="col-lg-10 offset-lg-1">
+					<div class="post_content">
+
+						<!-- Post Body -->
+
+						<div class="post_body">
+
+							<!-- youtube embedded -->
+							<h3>Screencast Demo</h3>
+
+							<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Fa355rNqL6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<br><br>
+
+							<p class="post_p">Every single one of us use passwords (even daily). The majority of us (87% as of 2018) use the same password(s) at more than one website, which is a common flaw in personal cyber security. In this article, you’ll learn a simple design pattern to exponentially increase your password strength with near-minimal effort. </p>
+							<p class="post_p">In this article, you’ll learn a simple design pattern to exponentially increase your password strength with near-minimal effort.</p>
+							<figure>
+								<img src="http://awesomelytechie.com/wp-content/uploads/2017/01/password.gif" alt="">
+								<figcaption>Password strength increases exponentially with added length and complexity.</figcaption>
+							</figure>
+							<p class="post_p">This article proposes a design pattern for passphrases that can be adapted to each individual site you visit and store your passwords at.
+
+All you have to do is to follow these two simple steps:</p>
+
+							<h3>1) Create a Passphrase</h3>
+							<p class="post_p">A passphrase is a sentence that can be used as a password. They are often longer and more complex than a single-worded password.</p>
+							<p class="post_p">A passphrase may look like this:  MergersDecadeLabeledManager.
+For the sake of simplicity and demonstration, let’s take the word ‘jellyfish’. This 9-lettered word is not strong enough to be a reasonable password, so let’s add some special and numerical characters to it:</p>
+						<figure>
+							<img src="images/pwrd/pwrd_part1-1.png" alt="">
+						</figure>
+
+							<p class="post_p">Note that the new password also uses upper- and lowercase letters. Let’s see how they compare at <a href="https://howsecureismypassword.net/">howsecureismypassword.net</a>:</p>
+							<figure>
+								<img src="images/pwrd/pwrd_part1-2.png" alt="">
+							</figure>
+
+							<h3>2) Adapt Passphrase to each Website</h3>
+							<p class="post_p">Now that we have a reasonably secure passphrase (which can increase strength by adding length), let’s make it adaptable with this pattern:</p>
+							<figure>
+								<img src="images/pwrd/pwrd_part1-3.png" alt="">
+							</figure>
+							<p class="post_p">As you can hopefully figure out, this passphrase could be Managebac-specific. This passphrase is 18 characters long and is reasonably easy to remember. According to howsecureismypatssword.net, it takes todays computers 7 quadrillion years to brute force this passphrase:</p>
+							<figure>
+								<img src="images/pwrd/pwrd_part1-4.png" alt="">
+							</figure>
+							<p class="post_p">This is more than enough since you’re gonna have to change it for next year’s Prwd Event!</p>
+							<h3>Conclusion</h3>
+							<p class="post_p">In this article you learned how to design a site-adaptive, robust passphrase that is relatively easy to remember. Now, the most important step is up to you: <b>Create your own passphrase and adapt them to the sites you use!</b></p>
+
+							<h3>Survey</h3>
+
+							<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfetQMcvsLjlDoRmWQRL3-2d1rW8dDHwE7B-HYfxkDdFftvVA/viewform?embedded=true" width="640" height="1070" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<
+
+		</div>
+
+	</div>
+
+	<br>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row row-lg-eq-height">
+				<div class="col-lg-9 order-lg-1 order-2">
+					<div class="footer_content">
+						<div class="footer_logo"><a href="index.html">CIS Cyber Security Initiative</a></div>
+					<!--	<div class="footer_social">
+							<ul>
+								<li class="footer_social_facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li class="footer_social_twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li class="footer_social_pinterest"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+								<li class="footer_social_vimeo"><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+								<li class="footer_social_instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li class="footer_social_google"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+							</ul>
+						</div> -->
+
+						<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Mattis Stene-Johansen | Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+					</div>
+				</div>
+				<div class="col-lg-3 order-lg-2 order-1">
+					<div class="subscribe">
+						<div class="subscribe_background"></div>
+						<div class="subscribe_content">
+							<div class="subscribe_title">Join Slack Channel</div>
+							<form action="#">
+								<input type="email" class="sub_input" placeholder="Your Email" required="required">
+								<button class="sub_button">
+									<svg version="1.1" id="link_arrow_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 width="19px" height="13px" viewBox="0 0 19 13" enable-background="new 0 0 19 13" xml:space="preserve">
+										<polygon fill="#FFFFFF" points="12.475,0 11.061,0 17.081,6.021 0,6.021 0,7.021 17.038,7.021 11.06,13 12.474,13 18.974,6.5 "/>
+									</svg>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/masonry/masonry.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/post_nosidebar.js"></script>
+</body>
+</html>
